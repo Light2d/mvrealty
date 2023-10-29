@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      />
+        <link rel="stylesheet" href="css/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <title>Блог</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-page">
+            <div class="header__top">
+                <div class="header__top-num">+34 662 58 96 58</div>
+                <div class="header__top-mail">info@mibgroup.es</div>
+            </div>
+            <div class="container header-page__container">
+                <div class="header-page__menu menu-page">
+                    <div class="menu__icon icon-menu">
+                        <span></span>
+                    </div>
+                    <div class="header-page__logo">
+                        <img src="img/intro/header/logo.svg" alt="">
+                        <a href="index.html">mvrealty<span>.es</span></a>
+                    </div>
+                    <div class="menu__link menu__link-lang">
+                        <a data-path="four" href="#" class="menu__link-main menu__link-drop menu__link-main">En</a>
+                        <ul data-target="four" class="menu__sublist menu__sublist-lang">
+                            <li><a class="menu__sublink" href="#">En</a></li>
+                            <li><a class="menu__sublink" href="#">Ru</a></li>
+                            <li><a class="menu__sublink" href="#">Es</a></li>
+                        </ul>
+                    </div>
+                    <nav class="header__body-mobile">
+                        <ul class="accordeon__list">
+                            <li class="accordeon">
+                                <div class="accordeon__control">
+                                    <div class="accordeon__title">Эксклюзив</div>
+                                    <img src="img/intro/accordeon/arrDown.svg" alt="" class="accordeon__icon">
+                                </div>
+                                <div class="accordeon__content" >
+                                    <a href="#" class="accordeon__link">На продажу</a>
+                                    <a href="#" class="accordeon__link">Коммерческая</a>
+                                    <a href="#" class="accordeon__link">Долгосрочная Аренда</a>
+                                    <a href="#" class="accordeon__link">Краткосрочная Аренда</a>
+                                </div>
+                            </li>
+                            <li class="accordeon__title"> <a href="listing.html" class="accordeon__link">Новостройки</a></li>
+                            <li class="accordeon">
+                                <div class="accordeon__control" >
+                                    <div class="accordeon__title">Аренда</div>
+                                    <img src="img/intro/accordeon/arrDown.svg" alt="" class="accordeon__icon">
+                                </div>
+                                <div class="accordeon__content" >
+                                    <a href="#" class="accordeon__link">Квартиры</a>
+                                    <a href="#" class="accordeon__link">Студии</a>
+                                    <a href="#" class="accordeon__link">Таунхаусы</a>
+                                    <a href="#" class="accordeon__link">Виллы</a>
+                                    <a href="#" class="accordeon__link">Коммерческая</a>
+                                </div>
+                            </li>
+                            <li class="accordeon__title"> <a href="blog.html" >Блог</a></li>
+                            <li class="accordeon__title"> <a href="contacts.html" >Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="header-page__body">
+                      <ul class="menu__list">
+                        <li class="header-page__phone">
+                            <div >+34 662 58 96 58</div>
+                        </li>
+                        <li class="header-page__mail">
+                            <div >info@mibgroup.es</div>
+                        </li>
+                        <li class="header-page__link" >
+                            <a data-path="one" href="#" class="menu__link-drop menu-page__link-main menu-page__link">Эксклюзив</a>
+                            <ul data-target="one" class="menu__sublist">
+                                <li><a class="menu__sublink" href="#">На продажу</a></li>
+                                <li><a class="menu__sublink" href="#">Коммерческая</a></li>
+                                <li><a class="menu__sublink" href="#">Долгосрочная Аренда</a></li>
+                                <li><a class="menu__sublink" href="#">Краткосрочная Аренда</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-page__link">
+                            <a href="listing.html" class="menu-page__link">Новостройки</a>
+                        </li>
+                        <li class="header-page__link">
+                            <a data-path="two" href="#" class="menu__link-drop menu-page__link-main menu-page__link">Продажа</a>
+                            <ul data-target="two" class="menu__sublist">
+                                <li><a class="menu__sublink" href="#">раздел 1</a></li>
+                                <li><a class="menu__sublink" href="#">раздел 2</a></li>
+                                <li><a class="menu__sublink" href="#">раздел 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-page__link">
+                            <a data-path="three" href="#" class="menu__link-drop menu-page__link-main menu-page__link">Аренда</a>
+                            <ul data-target="three" class="menu__sublist">
+                                <li><a class="menu__sublink" href="#">Квартиры</a></li>
+                                <li><a class="menu__sublink" href="#">Студии</a></li>
+                                <li><a class="menu__sublink" href="#">Виллы</a></li>
+                                <li><a class="menu__sublink" href="#">Коммерческая</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-page__link">
+                            <a href="blog.html" class="menu-page__link">Блог</a>
+                        </li>
+                        <li class="header-page__link">
+                            <a href="contacts.html" class="menu-page__link">Контакты</a>
+                        </li>
+                        <li class="header-page__link menu__link-lang">
+                            <a data-path="four" href="#" class="menu__link-drop menu-page__link-main menu-page__link">En</a>
+                            <ul data-target="four" class="menu__sublist">
+                                <li><a class="menu__sublink" href="#">язык 1</a></li>
+                                <li><a class="menu__sublink" href="#">язык 1</a></li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+            </div>
+        </header>
+        <main>
+            <div class="pageIntro pageIntro__blog">
+                <div class="container pageIntro__container">
+                    <div class="pageIntro__title">
+                       Блог
+                    </div>
+                </div>
+            </div>
+            <div class="pageIntro__navigation container">
+                <div class="filters__name"> <span>·</span> Блог </div>
+            </div>
+            <div class="blog">
+                <div class="blog__container container">
+                    <div class="blog__name">Недвижимость в испании</div>
+                    <div class="blog__sections">
+                        <div class="blog__items">
+                            <div class="blog__item">
+                                <div class="blog__section">
+                                    <div class="blog__post">
+                                        <img src="img/blog/01.jpg" alt="" class="blog__img">
+                                        <div class="blog__content">
+                                            <div class="blog__title">Покупка недвижимости в Испании</div>
+                                            <div class="blog__description">
+                                                Купить недвижимость сегодня? Легко! С нашей помощью вы без труда станете обладателем квартиры или виллы на берегу 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog__section">
+                                    <div class="blog__post">
+                                        <img src="img/blog/02.jpg" alt="" class="blog__img">
+                                        <div class="blog__content">
+                                            <div class="blog__title">Ипотека в Испании для иностранцев</div>
+                                            <div class="blog__description">
+                                                Купить квартиру в ипотеку в Эстепоне может каждый желающий. При этом банки готовы выдавать кредиты и иностранцам.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog__post">
+                                        <img src="img/blog/03.jpg" alt="" class="blog__img">
+                                        <div class="blog__content">
+                                            <div class="blog__title">Виза инвестора в Испании</div>
+                                            <div class="blog__description">
+                                                Получение визы инвестора возможно при вложении средств в экономику страны. Например в недвижимость на Коста дель .
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <div class="blog__section">
+                                    <div class="blog__post">
+                                        <img src="img/blog/04.jpg" alt="" class="blog__img">
+                                        <div class="blog__content">
+                                            <div class="blog__title">Виза студента в Испании</div>
+                                            <div class="blog__description">
+                                                Виза студента выдается иностранным гражданам, которые поступили на учебу в ВУЗ или другое учебное заведение страны.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog__post">
+                                        <img src="img/blog/05.jpg" alt="" class="blog__img">
+                                        <div class="blog__content">
+                                            <div class="blog__title">Идентификационный номер иностранца (NIE) в Испании</div>
+                                            <div class="blog__description">
+                                                Идентификационный номер иностранца – необходимый документ для открытия
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog__section">
+                                    <div class="blog__post">
+                                        <img src="img/blog/06.jpg" alt="" class="blog__img">
+                                        <div class="blog__content">
+                                            <div class="blog__title">Виза и ВНЖ для воссоединения с семьей в Испании</div>
+                                            <div class="blog__description">
+                                                Получение визы для воссоединения с семьей – это первый шаг на пути получения вида
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <div class="blog__section">
+                                    <div class="blog__post">
+                                        <img src="img/blog/07.jpg" alt="" class="blog__img">
+                                        <div class="blog__content">
+                                            <div class="blog__title">Долгосрочная аренда квартиры в Испании</div>
+                                            <div class="blog__description">
+                                                Долгосрочная аренда недвижимости в Марбелье и других городах побережья
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog__section">
+                                    <div class="blog__post">
+                                        <img src="img/blog/08.jpg" alt="" class="blog__img">
+                                        <div class="blog__content">
+                                            <div class="blog__title">Расходы при покупке недвижимости в Испании</div>
+                                            <div class="blog__description">
+                                                Цена на недвижимость на Коста дель Соль складывается из цены на квартиру, услуг
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="blog__post">
+                                        <img src="img/blog/02.jpg" alt="" class="blog__img">
+                                        <div class="blog__content">
+                                            <div class="blog__title">Ипотека в Испании для иностранцев</div>
+                                            <div class="blog__description">
+                                                Купить квартиру в ипотеку в Эстепоне может каждый желающий. При этом банки готовы выдавать кредиты и иностранцам.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog__items">
+                            <ul class="blog__list">
+                                <li class="blog__li">Полезное в Испании</li>
+                                <li class="blog__li activeTab">Недвижимость в Испании</li>
+                                <li class="blog__li">Страхование в Испании</li>
+                                <li class="blog__li">Резиденция в Испании</li>
+                            </ul>
+                            <div class="blog__right">
+                                <div class="flatInfo__human human">
+                                    <div class="human__img"><img src="img/insidePage/flat/human.png" alt=""></div>
+                                    <div class="human__title">Ваш консультант</div>
+                                    <div class="human__name">Виталий Зубков</div>
+                                    <div class="human__contacts">
+                                        <div class="human__phone">+34 661 89 71 88</div>
+                                        <div class="human__mail">info@mibgroup.es</div>
+                                    </div>
+                                    <div class="human__icons">
+                                        <img src="img/insidePage/flat/icons/01.svg" alt="" class="human__icon">
+                                        <img src="img/insidePage/flat/icons/02.svg" alt="" class="human__icon">
+                                        <img src="img/insidePage/flat/icons/03.svg" alt="" class="human__icon">
+                                        <img src="img/insidePage/flat/icons/04.svg" alt="" class="human__icon">
+                                    </div>
+                                    <div class="human__btn">
+                                        <button>Заказать обратный звонок</button>
+                                    </div>
+                                </div>
+                                <div class="mainSlider-blog">
+                                    <div class="mainSlider-blog__suptitle">новостройки в Испании</div>
+                                    <div class="swiper-container mySwiper-blog">
+                                        <div class="swiper-wrapper">
+                
+                                            <div class="realtySlider__wrapper swiper-slide">
+                                                <div class="realtySlider realty-slide">
+                                                    <a href="blogArticle.html" class="realtySlider__item">
+                                                        <div class="realtySlider__img">
+                                                            <div class="swiper-container mySwiper">
+                                                                <div class="swiper-wrapper">
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/01.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/02.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/03.jpg" alt="">
+                                                                  </div>
+                                                                </div>
+                                                                <div class="swiper-button-next">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63334 8.00005C2.63334 7.61345 2.94674 7.30005 3.33333 7.30005H12.6667C13.0533 7.30005 13.3667 7.61345 13.3667 8.00005C13.3667 8.38665 13.0533 8.70005 12.6667 8.70005H3.33333C2.94674 8.70005 2.63334 8.38665 2.63334 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502L9.16164 12.495C8.88828 12.7684 8.44506 12.7684 8.17169 12.495C7.89833 12.2217 7.89833 11.7784 8.17169 11.5051L12.1717 7.50507C12.4451 7.23171 12.8883 7.23171 13.1616 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.17169 3.50507C8.44506 3.23171 8.88828 3.23171 9.16164 3.50507L13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502C12.8883 8.76839 12.4451 8.76839 12.1717 8.49502L8.17169 4.49502C7.89833 4.22166 7.89833 3.77844 8.17169 3.50507Z" fill="white"/>
+                                                                    </svg>                                        
+                                                                </div>
+                                                                <div class="swiper-button-prev">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3667 8.00005C13.3667 7.61345 13.0533 7.30005 12.6667 7.30005H3.33333C2.94673 7.30005 2.63333 7.61345 2.63333 8.00005C2.63333 8.38665 2.94673 8.70005 3.33333 8.70005H12.6667C13.0533 8.70005 13.3667 8.38665 13.3667 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502L6.83836 12.495C7.11172 12.7684 7.55494 12.7684 7.82831 12.495C8.10167 12.2217 8.10167 11.7784 7.82831 11.5051L3.82831 7.50507C3.55494 7.23171 3.11172 7.23171 2.83836 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.82831 3.50507C7.55494 3.23171 7.11172 3.23171 6.83836 3.50507L2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502C3.11172 8.76839 3.55494 8.76839 3.82831 8.49502L7.82831 4.49502C8.10167 4.22166 8.10167 3.77844 7.82831 3.50507Z" fill="white"/>
+                                                                    </svg>                                                                        </div>
+                                                                <div class="swiper-pagination"></div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="realtySlider__tags">
+                                                            <div class="realtySlider__tag">Spain</div>
+                                                            <div class="realtySlider__tag">Estepona</div>
+                                                            <div class="realtySlider__tag">Valle romano</div>
+                                                        </div>
+                                                        <div class="realtySlider__title">
+                                                            Великолепный пентхаус с отличными <br> видами в Валле Романо гольф
+                                                        </div>
+                                                        <div class="realtySlider__info">
+                                                            <div class="realtySlider__info__data">
+                                                                <div class="realtySlider__info__bed">2</div>
+                                                                <div class="realtySlider__info__bath">2</div>
+                                                                <div class="realtySlider__info__square"> 220m2</div>
+                                                            </div>
+                                                            <div class="realtySlider__info__ref">REF-104</div>
+                                                        </div>
+                                                        <div class="realtySlider__price">250,000 &#8364; <span>/</span> <del><span>280, 000 &#8364;</span></del></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="realtySlider__wrapper swiper-slide">
+                                                <div class="realtySlider realty-slide">
+                                                    <a href="blogArticle.html" class="realtySlider__item">
+                                                        <div class="realtySlider__img">
+                                                            <div class="swiper-container mySwiper">
+                                                                <div class="swiper-wrapper">
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/02.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/01.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/03.jpg" alt="">
+                                                                  </div>
+                                                                </div>
+                                                                <div class="swiper-button-next">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63334 8.00005C2.63334 7.61345 2.94674 7.30005 3.33333 7.30005H12.6667C13.0533 7.30005 13.3667 7.61345 13.3667 8.00005C13.3667 8.38665 13.0533 8.70005 12.6667 8.70005H3.33333C2.94674 8.70005 2.63334 8.38665 2.63334 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502L9.16164 12.495C8.88828 12.7684 8.44506 12.7684 8.17169 12.495C7.89833 12.2217 7.89833 11.7784 8.17169 11.5051L12.1717 7.50507C12.4451 7.23171 12.8883 7.23171 13.1616 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.17169 3.50507C8.44506 3.23171 8.88828 3.23171 9.16164 3.50507L13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502C12.8883 8.76839 12.4451 8.76839 12.1717 8.49502L8.17169 4.49502C7.89833 4.22166 7.89833 3.77844 8.17169 3.50507Z" fill="white"/>
+                                                                    </svg>                                        
+                                                                </div>
+                                                                <div class="swiper-button-prev">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3667 8.00005C13.3667 7.61345 13.0533 7.30005 12.6667 7.30005H3.33333C2.94673 7.30005 2.63333 7.61345 2.63333 8.00005C2.63333 8.38665 2.94673 8.70005 3.33333 8.70005H12.6667C13.0533 8.70005 13.3667 8.38665 13.3667 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502L6.83836 12.495C7.11172 12.7684 7.55494 12.7684 7.82831 12.495C8.10167 12.2217 8.10167 11.7784 7.82831 11.5051L3.82831 7.50507C3.55494 7.23171 3.11172 7.23171 2.83836 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.82831 3.50507C7.55494 3.23171 7.11172 3.23171 6.83836 3.50507L2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502C3.11172 8.76839 3.55494 8.76839 3.82831 8.49502L7.82831 4.49502C8.10167 4.22166 8.10167 3.77844 7.82831 3.50507Z" fill="white"/>
+                                                                    </svg>                                                                        </div>
+                                                                <div class="swiper-pagination"></div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="realtySlider__tags">
+                                                            <div class="realtySlider__tag">Spain</div>
+                                                            <div class="realtySlider__tag">Estepona</div>
+                                                            <div class="realtySlider__tag">Valle romano</div>
+                                                        </div>
+                                                        <div class="realtySlider__title">
+                                                            3 спальная квартира на продажу в<br> районе Аталая, Эстепона
+                                                        </div>
+                                                        <div class="realtySlider__info">
+                                                            <div class="realtySlider__info__data">
+                                                                <div class="realtySlider__info__bed">2</div>
+                                                                <div class="realtySlider__info__bath">2</div>
+                                                                <div class="realtySlider__info__square"> 220m2</div>
+                                                            </div>
+                                                            <div class="realtySlider__info__ref">REF-104</div>
+                                                        </div>
+                                                        <div class="realtySlider__price">250,000 &#8364; <span>/</span> <del><span>280, 000 &#8364;</span></del></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="realtySlider__wrapper swiper-slide">
+                                                <div class="realtySlider realty-slide">
+                                                    <a href="blogArticle.html" class="realtySlider__item">
+                                                        <div class="realtySlider__img">
+                                                            <div class="swiper-container mySwiper">
+                                                                <div class="swiper-wrapper">
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/01.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/02.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/03.jpg" alt="">
+                                                                  </div>
+                                                                </div>
+                                                                <div class="swiper-button-next">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63334 8.00005C2.63334 7.61345 2.94674 7.30005 3.33333 7.30005H12.6667C13.0533 7.30005 13.3667 7.61345 13.3667 8.00005C13.3667 8.38665 13.0533 8.70005 12.6667 8.70005H3.33333C2.94674 8.70005 2.63334 8.38665 2.63334 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502L9.16164 12.495C8.88828 12.7684 8.44506 12.7684 8.17169 12.495C7.89833 12.2217 7.89833 11.7784 8.17169 11.5051L12.1717 7.50507C12.4451 7.23171 12.8883 7.23171 13.1616 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.17169 3.50507C8.44506 3.23171 8.88828 3.23171 9.16164 3.50507L13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502C12.8883 8.76839 12.4451 8.76839 12.1717 8.49502L8.17169 4.49502C7.89833 4.22166 7.89833 3.77844 8.17169 3.50507Z" fill="white"/>
+                                                                    </svg>                                        
+                                                                </div>
+                                                                <div class="swiper-button-prev">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3667 8.00005C13.3667 7.61345 13.0533 7.30005 12.6667 7.30005H3.33333C2.94673 7.30005 2.63333 7.61345 2.63333 8.00005C2.63333 8.38665 2.94673 8.70005 3.33333 8.70005H12.6667C13.0533 8.70005 13.3667 8.38665 13.3667 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502L6.83836 12.495C7.11172 12.7684 7.55494 12.7684 7.82831 12.495C8.10167 12.2217 8.10167 11.7784 7.82831 11.5051L3.82831 7.50507C3.55494 7.23171 3.11172 7.23171 2.83836 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.82831 3.50507C7.55494 3.23171 7.11172 3.23171 6.83836 3.50507L2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502C3.11172 8.76839 3.55494 8.76839 3.82831 8.49502L7.82831 4.49502C8.10167 4.22166 8.10167 3.77844 7.82831 3.50507Z" fill="white"/>
+                                                                    </svg>                                                                        </div>
+                                                                <div class="swiper-pagination"></div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="realtySlider__tags">
+                                                            <div class="realtySlider__tag">Spain</div>
+                                                            <div class="realtySlider__tag">Estepona</div>
+                                                            <div class="realtySlider__tag">Valle romano</div>
+                                                        </div>
+                                                        <div class="realtySlider__title">
+                                                            Земельный участок в видами на море<br> в Бенаависе
+                                                        </div>
+                                                        <div class="realtySlider__info">
+                                                            <div class="realtySlider__info__data">
+                                                                <div class="realtySlider__info__bed">2</div>
+                                                                <div class="realtySlider__info__bath">2</div>
+                                                                <div class="realtySlider__info__square"> 220m2</div>
+                                                            </div>
+                                                            <div class="realtySlider__info__ref">REF-104</div>
+                                                        </div>
+                                                        <div class="realtySlider__price">250,000 &#8364; <span>/</span> <del><span>280, 000 &#8364;</span></del></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="realtySlider__wrapper swiper-slide">
+                                                <div class="realtySlider realty-slide">
+                                                    <a href="blogArticle.html" class="realtySlider__item">
+                                                        <div class="realtySlider__img">
+                                                            <div class="swiper-container mySwiper">
+                                                                <div class="swiper-wrapper">
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/03.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/01.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/02.jpg" alt="">
+                                                                  </div>
+                                                                </div>
+                                                                <div class="swiper-button-next">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63334 8.00005C2.63334 7.61345 2.94674 7.30005 3.33333 7.30005H12.6667C13.0533 7.30005 13.3667 7.61345 13.3667 8.00005C13.3667 8.38665 13.0533 8.70005 12.6667 8.70005H3.33333C2.94674 8.70005 2.63334 8.38665 2.63334 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502L9.16164 12.495C8.88828 12.7684 8.44506 12.7684 8.17169 12.495C7.89833 12.2217 7.89833 11.7784 8.17169 11.5051L12.1717 7.50507C12.4451 7.23171 12.8883 7.23171 13.1616 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.17169 3.50507C8.44506 3.23171 8.88828 3.23171 9.16164 3.50507L13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502C12.8883 8.76839 12.4451 8.76839 12.1717 8.49502L8.17169 4.49502C7.89833 4.22166 7.89833 3.77844 8.17169 3.50507Z" fill="white"/>
+                                                                    </svg>                                        
+                                                                </div>
+                                                                <div class="swiper-button-prev">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3667 8.00005C13.3667 7.61345 13.0533 7.30005 12.6667 7.30005H3.33333C2.94673 7.30005 2.63333 7.61345 2.63333 8.00005C2.63333 8.38665 2.94673 8.70005 3.33333 8.70005H12.6667C13.0533 8.70005 13.3667 8.38665 13.3667 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502L6.83836 12.495C7.11172 12.7684 7.55494 12.7684 7.82831 12.495C8.10167 12.2217 8.10167 11.7784 7.82831 11.5051L3.82831 7.50507C3.55494 7.23171 3.11172 7.23171 2.83836 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.82831 3.50507C7.55494 3.23171 7.11172 3.23171 6.83836 3.50507L2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502C3.11172 8.76839 3.55494 8.76839 3.82831 8.49502L7.82831 4.49502C8.10167 4.22166 8.10167 3.77844 7.82831 3.50507Z" fill="white"/>
+                                                                    </svg>                                                                        </div>
+                                                                <div class="swiper-pagination"></div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="realtySlider__tags">
+                                                            <div class="realtySlider__tag">Spain</div>
+                                                            <div class="realtySlider__tag">Estepona</div>
+                                                            <div class="realtySlider__tag">Valle romano</div>
+                                                        </div>
+                                                        <div class="realtySlider__title">
+                                                            Великолепный пентхаус с отличными <br> видами в Валле Романо гольф
+                                                        </div>
+                                                        <div class="realtySlider__info">
+                                                            <div class="realtySlider__info__data">
+                                                                <div class="realtySlider__info__bed">2</div>
+                                                                <div class="realtySlider__info__bath">2</div>
+                                                                <div class="realtySlider__info__square"> 220m2</div>
+                                                            </div>
+                                                            <div class="realtySlider__info__ref">REF-104</div>
+                                                        </div>
+                                                        <div class="realtySlider__price">250,000 &#8364; <span>/</span> <del><span>280, 000 &#8364;</span></del></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="realtySlider__wrapper swiper-slide">
+                                                <div class="realtySlider realty-slide">
+                                                    <a href="blogArticle.html" class="realtySlider__item">
+                                                        <div class="realtySlider__img">
+                                                            <div class="swiper-container mySwiper">
+                                                                <div class="swiper-wrapper">
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/01.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/02.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/03.jpg" alt="">
+                                                                  </div>
+                                                                </div>
+                                                                <div class="swiper-button-next">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63334 8.00005C2.63334 7.61345 2.94674 7.30005 3.33333 7.30005H12.6667C13.0533 7.30005 13.3667 7.61345 13.3667 8.00005C13.3667 8.38665 13.0533 8.70005 12.6667 8.70005H3.33333C2.94674 8.70005 2.63334 8.38665 2.63334 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502L9.16164 12.495C8.88828 12.7684 8.44506 12.7684 8.17169 12.495C7.89833 12.2217 7.89833 11.7784 8.17169 11.5051L12.1717 7.50507C12.4451 7.23171 12.8883 7.23171 13.1616 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.17169 3.50507C8.44506 3.23171 8.88828 3.23171 9.16164 3.50507L13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502C12.8883 8.76839 12.4451 8.76839 12.1717 8.49502L8.17169 4.49502C7.89833 4.22166 7.89833 3.77844 8.17169 3.50507Z" fill="white"/>
+                                                                    </svg>                                        
+                                                                </div>
+                                                                <div class="swiper-button-prev">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3667 8.00005C13.3667 7.61345 13.0533 7.30005 12.6667 7.30005H3.33333C2.94673 7.30005 2.63333 7.61345 2.63333 8.00005C2.63333 8.38665 2.94673 8.70005 3.33333 8.70005H12.6667C13.0533 8.70005 13.3667 8.38665 13.3667 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502L6.83836 12.495C7.11172 12.7684 7.55494 12.7684 7.82831 12.495C8.10167 12.2217 8.10167 11.7784 7.82831 11.5051L3.82831 7.50507C3.55494 7.23171 3.11172 7.23171 2.83836 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.82831 3.50507C7.55494 3.23171 7.11172 3.23171 6.83836 3.50507L2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502C3.11172 8.76839 3.55494 8.76839 3.82831 8.49502L7.82831 4.49502C8.10167 4.22166 8.10167 3.77844 7.82831 3.50507Z" fill="white"/>
+                                                                    </svg>                                                                        </div>
+                                                                <div class="swiper-pagination"></div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="realtySlider__tags">
+                                                            <div class="realtySlider__tag">Spain</div>
+                                                            <div class="realtySlider__tag">Estepona</div>
+                                                            <div class="realtySlider__tag">Valle romano</div>
+                                                        </div>
+                                                        <div class="realtySlider__title">
+                                                            Великолепный пентхаус с отличными <br> видами в Валле Романо гольф
+                                                        </div>
+                                                        <div class="realtySlider__info">
+                                                            <div class="realtySlider__info__data">
+                                                                <div class="realtySlider__info__bed">2</div>
+                                                                <div class="realtySlider__info__bath">2</div>
+                                                                <div class="realtySlider__info__square"> 220m2</div>
+                                                            </div>
+                                                            <div class="realtySlider__info__ref">REF-104</div>
+                                                        </div>
+                                                        <div class="realtySlider__price">250,000 &#8364; <span>/</span> <del><span>280, 000 &#8364;</span></del></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="realtySlider__wrapper swiper-slide">
+                                                <div class="realtySlider realty-slide">
+                                                    <a href="blogArticle.html" class="realtySlider__item">
+                                                        <div class="realtySlider__img">
+                                                            <div class="swiper-container mySwiper">
+                                                                <div class="swiper-wrapper">
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/03.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/01.jpg" alt="">
+                                                                  </div>
+                                                                  <div class="swiper-slide">
+                                                                    <img class='realtySlider__pic' src="img/realtySea/slider/02.jpg" alt="">
+                                                                  </div>
+                                                                </div>
+                                                                <div class="swiper-button-next">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63334 8.00005C2.63334 7.61345 2.94674 7.30005 3.33333 7.30005H12.6667C13.0533 7.30005 13.3667 7.61345 13.3667 8.00005C13.3667 8.38665 13.0533 8.70005 12.6667 8.70005H3.33333C2.94674 8.70005 2.63334 8.38665 2.63334 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502L9.16164 12.495C8.88828 12.7684 8.44506 12.7684 8.17169 12.495C7.89833 12.2217 7.89833 11.7784 8.17169 11.5051L12.1717 7.50507C12.4451 7.23171 12.8883 7.23171 13.1616 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.17169 3.50507C8.44506 3.23171 8.88828 3.23171 9.16164 3.50507L13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502C12.8883 8.76839 12.4451 8.76839 12.1717 8.49502L8.17169 4.49502C7.89833 4.22166 7.89833 3.77844 8.17169 3.50507Z" fill="white"/>
+                                                                    </svg>                                        
+                                                                </div>
+                                                                <div class="swiper-button-prev">
+                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3667 8.00005C13.3667 7.61345 13.0533 7.30005 12.6667 7.30005H3.33333C2.94673 7.30005 2.63333 7.61345 2.63333 8.00005C2.63333 8.38665 2.94673 8.70005 3.33333 8.70005H12.6667C13.0533 8.70005 13.3667 8.38665 13.3667 8.00005Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502L6.83836 12.495C7.11172 12.7684 7.55494 12.7684 7.82831 12.495C8.10167 12.2217 8.10167 11.7784 7.82831 11.5051L3.82831 7.50507C3.55494 7.23171 3.11172 7.23171 2.83836 7.50507Z" fill="white"/>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.82831 3.50507C7.55494 3.23171 7.11172 3.23171 6.83836 3.50507L2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502C3.11172 8.76839 3.55494 8.76839 3.82831 8.49502L7.82831 4.49502C8.10167 4.22166 8.10167 3.77844 7.82831 3.50507Z" fill="white"/>
+                                                                    </svg>                                                                        </div>
+                                                                <div class="swiper-pagination"></div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="realtySlider__tags">
+                                                            <div class="realtySlider__tag">Spain</div>
+                                                            <div class="realtySlider__tag">Estepona</div>
+                                                            <div class="realtySlider__tag">Valle romano</div>
+                                                        </div>
+                                                        <div class="realtySlider__title">
+                                                            Великолепный пентхаус с отличными <br> видами в Валле Романо гольф
+                                                        </div>
+                                                        <div class="realtySlider__info">
+                                                            <div class="realtySlider__info__data">
+                                                                <div class="realtySlider__info__bed">2</div>
+                                                                <div class="realtySlider__info__bath">2</div>
+                                                                <div class="realtySlider__info__square"> 220m2</div>
+                                                            </div>
+                                                            <div class="realtySlider__info__ref">REF-104</div>
+                                                        </div>
+                                                        <div class="realtySlider__price">250,000 &#8364; <span>/</span> <del><span>280, 000 &#8364;</span></del></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next-1">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63334 8.00005C2.63334 7.61345 2.94674 7.30005 3.33333 7.30005H12.6667C13.0533 7.30005 13.3667 7.61345 13.3667 8.00005C13.3667 8.38665 13.0533 8.70005 12.6667 8.70005H3.33333C2.94674 8.70005 2.63334 8.38665 2.63334 8.00005Z" fill="white"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502L9.16164 12.495C8.88828 12.7684 8.44506 12.7684 8.17169 12.495C7.89833 12.2217 7.89833 11.7784 8.17169 11.5051L12.1717 7.50507C12.4451 7.23171 12.8883 7.23171 13.1616 7.50507Z" fill="white"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.17169 3.50507C8.44506 3.23171 8.88828 3.23171 9.16164 3.50507L13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502C12.8883 8.76839 12.4451 8.76839 12.1717 8.49502L8.17169 4.49502C7.89833 4.22166 7.89833 3.77844 8.17169 3.50507Z" fill="white"/>
+                                            </svg>   
+                                        </div>
+                                        <div class="swiper-button-prev-1">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3667 8.00005C13.3667 7.61345 13.0533 7.30005 12.6667 7.30005H3.33333C2.94673 7.30005 2.63333 7.61345 2.63333 8.00005C2.63333 8.38665 2.94673 8.70005 3.33333 8.70005H12.6667C13.0533 8.70005 13.3667 8.38665 13.3667 8.00005Z" fill="white"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502L6.83836 12.495C7.11172 12.7684 7.55494 12.7684 7.82831 12.495C8.10167 12.2217 8.10167 11.7784 7.82831 11.5051L3.82831 7.50507C3.55494 7.23171 3.11172 7.23171 2.83836 7.50507Z" fill="white"/>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.82831 3.50507C7.55494 3.23171 7.11172 3.23171 6.83836 3.50507L2.83836 7.50507C2.56499 7.77844 2.56499 8.22166 2.83836 8.49502C3.11172 8.76839 3.55494 8.76839 3.82831 8.49502L7.82831 4.49502C8.10167 4.22166 8.10167 3.77844 7.82831 3.50507Z" fill="white"/>
+                                            </svg>
+                                        </div>
+                                        <div class="swiper-pagination-1"></div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="apartments__pagination pagination">
+                        <div class="pagination__arrow">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63334 8.00005C2.63334 7.61345 2.94674 7.30005 3.33333 7.30005H12.6667C13.0533 7.30005 13.3667 7.61345 13.3667 8.00005C13.3667 8.38665 13.0533 8.70005 12.6667 8.70005H3.33333C2.94674 8.70005 2.63334 8.38665 2.63334 8.00005Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502L9.16164 12.495C8.88828 12.7684 8.44506 12.7684 8.17169 12.495C7.89833 12.2217 7.89833 11.7784 8.17169 11.5051L12.1717 7.50507C12.4451 7.23171 12.8883 7.23171 13.1616 7.50507Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.17169 3.50507C8.44506 3.23171 8.88828 3.23171 9.16164 3.50507L13.1616 7.50507C13.435 7.77844 13.435 8.22166 13.1616 8.49502C12.8883 8.76839 12.4451 8.76839 12.1717 8.49502L8.17169 4.49502C7.89833 4.22166 7.89833 3.77844 8.17169 3.50507Z" fill="white"/>
+                            </svg>                                        
+                        </div>
+                        <div class="pagination__pages">
+                            <div class="pagination__page">1</div>
+                            <div class="pagination__page">2</div>
+                            <div class="pagination__page">3</div>
+                            <div class="pagination__page">4</div>
+                            <div class="pagination__page">...</div>
+                            <div class="pagination__page">9</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__items">
+                    <div class="footer__item">
+                        <div class="footer__title">Недвижимость по регионам</div>
+                        <ul class="footer__ul">
+                            <li class="footer__li"><a href="#">в Эстепоне</a></li>
+                            <li class="footer__li"><a href="#">в Марбелье</a></li>
+                            <li class="footer__li"><a href="#">в Бенальмадене</a></li>
+                            <li class="footer__li"><a href="#">в Фуэнхироле</a></li>
+                            <li class="footer__li"><a href="#">в Торремолиносе</a></li>
+                            <li class="footer__li"><a href="#">в Пуэрто Банус</a></li>
+                            <li class="footer__li"><a href="#">в Малаге</a></li>
+                            <li class="footer__li"><a href="#">в Дукесе</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">Недвижимость в Испании</div>
+                        <ul class="footer__ul">
+                            <li class="footer__li"><a href="#">Коммерческая</a></li>
+                            <li class="footer__li"><a href="#">Долгосрочная Аренда</a></li>
+                            <li class="footer__li"><a href="#">Краткосрочная Аренда</a></li>
+                            <li class="footer__li"><a href="#">Новостройки</a></li>
+                            <li class="footer__li"><a href="#">Квартиры</a></li>
+                            <li class="footer__li"><a href="#">Студии</a></li>
+                            <li class="footer__li"><a href="#">Таунхаусы</a></li>
+                            <li class="footer__li"><a href="#">Виллы</a></li>
+                            <li class="footer__li"><a href="#">Земельные Участки</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">Компания</div>
+                        <ul class="footer__ul">
+                            <li class="footer__li"><a href="#">Экслюзив</a></li>
+                            <li class="footer__li"><a href="#">Услуги</a></li>
+                            <li class="footer__li"><a href="aboutUs.html">О нас</a></li>
+                            <li class="footer__li"><a href="#">Страхование</a></li>
+                            <li class="footer__li"><a href="blog.html">Блог</a></li>
+                            <li class="footer__li"><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">Контакты</div>
+                        <ul class="footer__ul">
+                            <li class="footer__li footer__contacts">
+                                <img src="img/footer/01.svg" alt="">
+                                Estepona, Costa del<br>SolCalle Villa Borghese 1
+                            </li>
+                            <li class="footer__li footer__contacts">
+                                <img src="img/footer/02.svg" alt="">
+                                +34 662 58 96 58
+                            </li>
+                            <li class="footer__li footer__contacts">
+                                <img src="img/footer/03.svg" alt="">
+                                info@mibgroup.es
+                            </li>
+                            <li class="footer__li">
+                                <div class="footer__icons">
+                                    <img src="img/footer/04.svg" alt="">
+                                    <img src="img/footer/05.svg" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy copy">
+                <div class="container copy__container">
+                    <div>
+                        <div class="footer__logo">
+                            <img src="img/intro/header/logo.svg" alt="">
+                            <a href="index.html">mvrealty<span>.es</span></a>
+                        </div>
+                        <div div class="footer__info"><a href="userAgreement.html">Условия пользования</a> <span>|</span> Политика “Куки” </div>
+                    </div>
+                    <div class="footer__copyright">©2016 - 2021 www.mibgroup.es - All rights reserved</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

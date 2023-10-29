@@ -1,0 +1,27 @@
+.pageIntro {
+  background-image: url(../img/aboutUs/bg.jpg);
+  background-repeat: no-repeat;
+}
+.pageIntro__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 80px 0;
+}
+@media (max-width: 767.98px) {
+  .pageIntro__title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 479.98px) {
+  .pageIntro__title {
+    font-size: 26px;
+  }
+}
+.pageIntro__navigation {
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
